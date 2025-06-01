@@ -1,22 +1,56 @@
-# Homework 1: Predict Customer Responses to Marketing Campaigns
+# World Food Production Analysis
 
-## Introduction
-This homework assignment focuses on predicting customer responses to marketing campaigns. The goal is to analyze the provided data and build a model to accurately predict customer behavior.
+## Project Overview
+This project analyzes global food production data to understand patterns, trends, and insights in agricultural production across different countries and food categories. The analysis is performed using Python with Jupyter Notebook.
+
+## Dataset
+The project uses the `worldfoodproduction.csv` dataset, which contains comprehensive information about food production across different countries and years.
 
 ## Project Structure
 ```
-Hw1/
-├── Data/
-│   └── marketing_campaign.csv       # Marketing campaign data
-├── Source/
-│   └── homework1_HaMinhChien_2202095.py  # Implementation file
-├── README.md                        # Project documentation
-└── requirements.txt                 # Dependencies for the project
+.
+├── dataset/
+│   ├── worldfood.ipynb        # Jupyter notebook containing the analysis
+│   └── worldfoodproduction.csv # Raw dataset
+└── README.md                  # Project documentation
 ```
 
-## Author
-**Ha Minh Chien**
+## Requirements
+To run this project, you need:
+- Python 3.x
+- Jupyter Notebook
+- Required Python packages:
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
 
-## Course Information
-- **Course**: Data Visualization
-- **Instructor**: Ha Xuan Nguyen
+## Setup Instructions
+1. Clone this repository
+2. Navigate to the project directory
+3. Install required packages:
+   ```bash
+   pip install pandas numpy matplotlib seaborn jupyter
+   ```
+4. Open the Jupyter notebook:
+   ```bash
+   jupyter notebook dataset/worldfood.ipynb
+   ```
+
+## Usage
+1. Open the `worldfood.ipynb` notebook in Jupyter
+2. Run the cells sequentially to see the analysis
+3. The notebook contains detailed explanations and visualizations of the food production data
+
+## Analysis Features
+- Data exploration and cleaning
+- Statistical analysis of food production trends
+- Visualization of production patterns
+- Country-wise comparisons
+- Time series analysis
+
+## Author
+Ha Minh Chien (2202095)
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details. 
